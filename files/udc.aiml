@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+ 
+  
+  
+   
+  <category>
+      <pattern>*</pattern>
+       <template>welcome to icecream bot.</template>
+   </category>
+   
+    <category>
+      <pattern>tell me flavours</pattern>
+       <template>cool,i have specially mango,vanilla,chocolate,oreo flavours this time.which flavour you want?</template>
+   </category>
+  
+   <category>
+      <pattern>i want * flavour</pattern>
+       <template>cool,your <star/> flavour is ready any thing else sir?</template>
+   </category>
+   
+   <category>
+      <pattern>yes i want  * flavour</pattern>
+       <template>alright,your <star/> flavour is also ready any thing else sir?</template>
+   </category>
+   
+   <category>
+      <pattern>pack my order</pattern>
+       <template>sure its ready.thank you sir.</template>
+   </category>
+  
+</aiml>
